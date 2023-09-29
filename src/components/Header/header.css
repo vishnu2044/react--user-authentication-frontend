@@ -1,0 +1,41 @@
+.nav-bar{
+    position: sticky;
+}
+
+
+.nav-container{
+    border-radius: 0.8rem;
+    padding-left: 2rem;
+    background-color: rgba(0, 0, 0, 0.419);
+    
+}
+
+.nav-header{
+    margin-left: 1rem;
+
+}
+
+.nav-text-link {
+    margin-left: 2rem;
+    border-radius: 1rem;
+    text-decoration: none;
+}
+
+.nav-text-link:hover {
+    background-color: rgba(250, 248, 248, 0.419);
+    border-radius: 0.6rem;
+    background-size: 100%; /* Adjust the percentage to control the size of the background color */
+    text-decoration: none;
+
+}
+
+
+.nav-text-link {
+    margin-left: 2rem;
+    border-radius: 1rem;
+    position: relative; /* Add this for positioning the pseudo-element */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+
+
